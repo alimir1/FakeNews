@@ -34,14 +34,14 @@ Top                        |  Bottom
 
 
 * Contains a total of 5 cells:
-  * Cell @ Row 0: Date on the left side, FakeNews Logo on the right side
-  * Cell @ Row 1: Second cell: Large `UIImageView` with a news company logo `UIImageView` underneeth that image. Also contains a `UILabel` to display title for the article.
-  * Cell @ Row 2: Third cell: Contains two `UIImageView`s as well as `UILabel`s side-by-side.
-  * Cell @ Row 3: `UILabel` on the left and a `UIImageView` on the right. Also include `UIImageView` on top of the `UILabel` to display news logo
-  * Cell @ Row 4: Same as cell @ Row 3
-* Non-selectable cells: Cell @ Row 0 & Cell @ Row 2
+  * Row 0: Date on the left side, FakeNews Logo on the right side
+  * Row 1: Second cell: Large `UIImageView` with a news company logo `UIImageView` underneeth that image. Also contains a `UILabel` to display title for the article.
+  * Row 2: Third cell: Contains two `UIImageView`s as well as `UILabel`s side-by-side.
+  * Row 3: `UILabel` on the left and a `UIImageView` on the right. Also include `UIImageView` on top of the `UILabel` to display news logo
+  * Row 4: Same as Row 3
+* Non-selectable cells: Row 0 & @ Row 2
 * Selectable cells: Row 1, Row 3, Row 4
-* Tapping on cell @ Row 1, 3 & 4 should take you to `DetailTableViewController` (see below).
+* Tapping on Row 1, 3 & 4 should take you to `DetailTableViewController` (see below).
 * Make sure to design these well (see below for design tips).
 
 ### `DetailTableViewController`
@@ -49,9 +49,9 @@ Top                        |  Bottom
 ![](/DetailPage.png)
 
 * Contains 3 cells:
- * Cell @ Row 0: Headline `UIlabel`
- * Cell @ Row 1: Large `UIImageView` to display article's image
- * Cell @ Row 3: Large `UILabel` for article's text
+  * Row 0: Headline `UIlabel`
+  * Row 1: Large `UIImageView` to display article's image
+  * Row 3: Large `UILabel` for article's text
 
 ***
 
