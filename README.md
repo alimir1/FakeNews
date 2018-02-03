@@ -7,7 +7,7 @@
 
 ## Video Walkthrough
 
-<img src='/FakeNews/demo.gif' width='' />
+![](/demo.gif)
 
 ***
 
@@ -52,13 +52,45 @@ Top                        |  Bottom
   * Row 0: Headline `UIlabel`
   * Row 1: Large `UIImageView` to display article's image
   * Row 3: Large `UILabel` for article's text
+* When creating a code ViewController, make sure that it's a subclass of `UITableViewController`.
 
 ***
 
 ## Design Tips
 
+### Resizing height of `UITableViewCell`
+
+![](/Design%20Tips/resize-height-uitableviewcell.gif)
+
 ### Font Style
 ![](/Design%20Tips/font-style.gif)
+
+### Adding corner radius to `UIImageView` for rounded corner look
+
+![](/Design%20Tips/rounded-corner-imageviews.gif)
+
+### Align `UILabel`'s text to TOP rather than MIDDLE
+
+![](/Design%20Tips/align-uilabel-top.gif)
+
+***
+
+## Hints
+* Change `DetailTableViewController`'s from `HomeTableViewController`:
+
+` swift
+override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+ // ...
+}
+`
+* There should be 3 segues:
+
+![](/segues.png)
+
+  * Don't forget to set unique identifier for each segue on the attribute inspector.
+
+
+
 
 
 
