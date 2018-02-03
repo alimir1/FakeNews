@@ -7,7 +7,7 @@
 
 ## Video Walkthrough
 
-<img src='/FakeNews/demo.gif.gif' width='' />
+<img src='/FakeNews/demo.gif' width='' />
 
 ***
 
