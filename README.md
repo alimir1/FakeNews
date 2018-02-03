@@ -11,6 +11,25 @@
 
 ***
 
+
+
+Table of contents
+=================
+
+* [Before you begin](#before-you-begin)
+* [Required Features](#required-features)
+  * [Overview](#overview)
+  * [`HomeTableViewController`](#hometableviewcontroller)
+  * [`DetailTableViewController`](#detailtableviewcontroller)
+* [Design Tips](#design-tips)
+  * [Resizing height of `UiTableViewCell`](#resizing-height-of-uitableviewcell)
+  * [Font Style](#font-style)
+  * [Adding rounded corner to image view](#adding-corner-radius-to-uiimageview-for-rounded-corner-look)
+  * [Align `UiLabel`'s text to top rather than middle](#align-uilabels-text-to-top-rather-than-middle)
+* [Hints](#hints)
+
+***
+
 ## Before you begin
 
 1. Create a new iOS project
@@ -41,8 +60,8 @@ Top                        |  Bottom
   * Row 4: Same as Row 3
 * Non-selectable cells: Row 0 & @ Row 2
 * Selectable cells: Row 1, Row 3, Row 4
-* Tapping on Row 1, 3 & 4 should take you to `DetailTableViewController` (see below).
-* Make sure to design these well (see below for design tips).
+* Tapping on Row 1, 3 & 4 should take you to [`DetailTableViewController`](#detailtableviewcontroller).
+* Make sure to design this app. Click [here](#design-tips) for design tips.
 
 ### `DetailTableViewController`
 
