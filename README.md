@@ -95,7 +95,7 @@ Top                        |  Bottom
 ***
 
 ## Hints
-* Change `DetailTableViewController`'s from `HomeTableViewController`:
+* Change `DetailTableViewController`'s properties from `HomeTableViewController`:
 
 ``` swift
 override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
