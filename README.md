@@ -97,11 +97,11 @@ Top                        |  Bottom
 ## Hints
 * Change `DetailTableViewController`'s from `HomeTableViewController`:
 
-` swift
+``` swift
 override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
  // ...
 }
-`
+```
 * There should be 3 segues:
 
 ![](/segues.png)
